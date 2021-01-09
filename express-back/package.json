@@ -1,0 +1,16 @@
+{
+  "name": "express-back",
+  "version": "1.0.0",
+  "description": "Backend for name-application",
+  "main": "index.ss",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jere Tofferi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.1"
+  }
+}

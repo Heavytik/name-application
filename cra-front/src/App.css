@@ -1,0 +1,38 @@
+.App-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5em;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  display: grid;
+  justify-items: center;
+}
+
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  right: 1em;
+  text-align: right;
+}
+
+.App-content div {
+  padding: 1em;
+}
+
+table {
+  text-align: center;
+}
+
+button {
+ font-size: 1em;
+ width: 20em;
+}
